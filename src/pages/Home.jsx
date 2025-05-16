@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import PincodeInput from '../components/PincodeInput';
-import { 
-  FaMapMarkerAlt,  
-  FaHospital, 
+import {
+  FaMapMarkerAlt,
+  FaHospital,
   FaShieldAlt,
   FaUserShield,
   FaFirstAid,
@@ -15,7 +15,6 @@ import {
 import { motion } from 'framer-motion';
 
 const Home = () => {
-  const [activeTab, setActiveTab] = useState('pincode');
   const [searchMode, setSearchMode] = useState('pincode'); // 'pincode' or 'location'
 
   // Common emergency numbers in India
